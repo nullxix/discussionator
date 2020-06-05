@@ -9,6 +9,12 @@ let playerData = undefined
 let remoteVideo = undefined
 let localVideo = undefined
 
+//browser support check "ms" vendor function is for IE8
+navigator.getUserMedia = ( navigator.getUserMedia       ||
+    navigator.webkitGetUserMedia ||
+    navigator.mozGetUserMedia    ||
+    navigator.msGetUserMedia );
+    
 const flags = {
     remoteCameraDisplayed: false,
     localCameraDisplayed: false,
