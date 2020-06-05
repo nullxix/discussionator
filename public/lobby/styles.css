@@ -1,0 +1,10 @@
+.roomba {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}

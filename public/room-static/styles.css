@@ -1,0 +1,15 @@
+#camera-modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* #remote-camera-box{
+    background: purple;
+    border: 2px solid black;
+} */

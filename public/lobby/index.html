@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobby</title>
+    <!-- GOOGLE FONTS YO -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- global styles yo -->
+    <link rel='stylesheet' href='../global.css'>
+    <link rel='stylesheet' href='./styles.css'>
+</head>
+<body>
+    <div class="pageContainer">
+        <h1>Discussionator</h1>
+        <div class='buttonBox'>
+            <div id='refresh-lobby' class='noselect clickable'>⟳</div><div class="newDiscussion noselect" id='new-discussion'>+ new discussion</div>
+        </div>
+        <div style="display: none" id='new-game-box'>
+            <!-- <button id='enable-edia'>Turn on Camera</button> -->
+            <form id='new-game-form'>
+                <div>
+                    <span><label for='username'>Name</label></span>
+                    <span><input name='username' type='text'></span>
+                </div>
+                <div>
+                    <span><label for='topic'>Topic</label></span>
+                    <span><input name='topic' type='text'></span>
+                </div>
+                <div>
+                    <input id='role-for' type='radio' name='role' value='for'>
+                    <label for='role-for'>For</label>
+                    <input id='role-against' type='radio' name='role' value='against'>
+                    <label for='role-against'>Against</label>
+                </div>
+                <button>Start that game!</button>
+            </form>
+        </div>
+        <div id="lobby-box">
+
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+* {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+body, html {
+    background-color: antiquewhite;
+}
+
+button {
+    background: antiquewhite;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.pageContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.newDiscussion{
+    min-width: 40%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    color: #888;
+}
+
+#lobby-box {
+    min-width: 60%;
+    max-width: 80%;
+    border: 2px solid black;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.buttonBox{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.horizontalRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.newDiscussion:hover, .clickable:hover {
+    /* make cursor a pointer */
+    cursor: pointer
+}
+
+.noselect{
+    /* make non selectable */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}

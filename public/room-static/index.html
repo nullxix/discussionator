@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobby</title>
+    <!-- GOOGLE FONTS YO -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- global styles yo -->
+    <link rel='stylesheet' href='../global.css'>
+    <link rel='stylesheet' href='./styles.css'>
+    <!-- peerjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.2.0/peerjs.min.js"></script>
+</head>
+<body>
+    <div id='camera-modal'>
+        <button id='enable-camera'>Enable Audio & Video</button>
+    </div>
+    <div class="pageContainer">
+        <center>
+            <h1 id='topic-display'></h1>
+            <h3>Awaiting opponent...</h3>
+        </center>
+        <div style='display: none' id='remote-camera-box'>
+
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
